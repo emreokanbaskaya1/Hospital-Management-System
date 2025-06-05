@@ -20,7 +20,10 @@ The system supports multiple user roles: **Secretary**, **Doctor**, and **Patien
 To run this project, you should set up the SQL Server database first.
 
 ### 📁 Files:
-Create a database with any name, but update the name in the connection string
+
+> 💡 **Tip:** You can create a database with any name, but make sure to update the name in the connection string accordingly.
+
+
 Inside the project folder, there is a folder named `db_create_to` which includes:
 - Individual `.sql` files for each table (exported using **"Script Table as → CREATE To"**)
   - These files include the full `CREATE TABLE` statements for:
